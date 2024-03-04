@@ -3,7 +3,6 @@ import numpy as np
 from PIL import Image
 import imutils
 from get_hsv_values import get_limits # Set masking parameters through here
-import random
 
 capture = cv.VideoCapture(0)
 maskcolour = [255,0,0]
